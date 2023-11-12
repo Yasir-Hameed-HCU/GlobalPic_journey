@@ -1,0 +1,33 @@
+{
+  "short_name": "GlobalPic",
+  "name": "GlobalPic Journey",
+  "description": "Discover and share captivating moments worldwide with our progressive web app, connecting photo enthusiasts globally.",
+  "icons": [
+    {
+      "src": "/assets/icon/images144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/assets/icon/images114.png",
+      "type": "image/png",
+      "sizes": "114x114"
+    },
+    {
+      "src": "/assets/icon/images192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/icon/images96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": ".",
+  "theme_color": "#3367D6",
+  "orientation": "portrait"
+}

@@ -1,0 +1,140 @@
+/* Reset some basic elements */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f4f4f4; /* Light grey background */
+  color: #333; /* Dark grey text */
+}
+
+ol, ul {
+  list-style: none;
+}
+
+/* Link styles */
+a {
+  text-decoration: none;
+  color: #007bff; /* Bootstrap primary blue */
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #007bff; /* Bootstrap primary blue */
+  color: #fff;
+}
+
+.navbar-brand {
+  font-size: 1.5em; /* Larger brand font */
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+/* Jumbotron */
+.jumbotron {
+  padding: 2em;
+  background-color: #e9ecef; /* Bootstrap light grey */
+  color: #495057; /* Bootstrap dark grey */
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+}
+
+/* Forms and Cards */
+.form-card {
+  background-color: #fff;
+  border: 1px solid #ddd; /* Light grey border */
+  padding: 2em;
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+  box-shadow: 0 0.5em 1em rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.form-control {
+  border-radius: 0.25em;
+  margin-bottom: 1em;
+}
+
+.btn-primary {
+  background-color: #007bff; /* Bootstrap primary blue */
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  color: #fff;
+}
+
+.btn-success {
+  background-color: #28a745; /* Bootstrap green */
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  color: #fff;
+}
+
+/* Map Section */
+#map {
+  height: 400px; /* Fixed height for map */
+}
+
+/* Modals */
+.modal-content {
+  padding: 1em;
+}
+
+/* Progress Bar */
+.progress {
+  background-color: #e9ecef;
+  border-radius: 0.25em;
+}
+
+.progress-bar {
+  background-color: #007bff; /* Bootstrap primary blue */
+  width: 0%; /* Initial width */
+}
+
+/* Footer */
+footer {
+  background-color: #007bff; /* Bootstrap primary blue */
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navbar {
+    text-align: center;
+  }
+}
+
+/* Add more custom styles as needed */
